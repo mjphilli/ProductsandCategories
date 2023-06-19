@@ -1,0 +1,34 @@
+@model Category
+
+<h1>@Model.Name</h1>
+
+<div class="row mt-5">
+    <div class="col-md">
+        <h2 class="text-center">Products</h2>
+        @foreach (Association association in Model.AllAssociations)
+        {
+            <div class="card shadow rounded mx-auto w-75 mb-3">
+
+                <div class=card-body>
+                    <p class="card-text">@association.Product?.Name</p>
+                </div>
+
+            </div>
+        }
+    </div>
+
+    <div class="col-md">
+        <form class="shadow p-3 rounded" asp-controller="Category" asp-action="UpdateProducts" asp-route-id="@Model.CategoryId" method="POST">
+            <h2 asp-for="" class="text-center">Add Product</h2>
+            <span class="text-danger" asp-validation-for="Name"></span>
+            <select name="productId" class="form-control">
+                @foreach (Product product in @ViewBag.missingproducts)
+                {
+                    <option value=@product.ProductId>@product.Name</option>
+                }
+            </select>
+
+            <input type="submit" value="Add">
+        </form>
+    </div>
+</div>

@@ -16,44 +16,44 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = F:\Users\Mike\Documents\Coding Dojo\dojo_assignments\c#\ProductsandCategories
 build_property._RazorSourceGeneratorDebug = 
 
-[F:/Users/Mike/Documents/Coding Dojo/dojo_assignments/c\#/ProductsandCategories/Views/Home/AllCategories.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBbGxDYXRlZ29yaWVzLmNzaHRtbA==
+[F:/Users/Mike/Documents/Coding Dojo/dojo_assignments/c\#/ProductsandCategories/Views/Category/AllCategories.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQWxsQ2F0ZWdvcmllcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Users/Mike/Documents/Coding Dojo/dojo_assignments/c\#/ProductsandCategories/Views/Home/AllProducts.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBbGxQcm9kdWN0cy5jc2h0bWw=
+[F:/Users/Mike/Documents/Coding Dojo/dojo_assignments/c\#/ProductsandCategories/Views/Category/Category.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Users/Mike/Documents/Coding Dojo/dojo_assignments/c\#/ProductsandCategories/Views/Home/Category.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXRlZ29yeS5jc2h0bWw=
+[F:/Users/Mike/Documents/Coding Dojo/dojo_assignments/c\#/ProductsandCategories/Views/Category/NewCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcTmV3Q2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Users/Mike/Documents/Coding Dojo/dojo_assignments/c\#/ProductsandCategories/Views/Category/ViewCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcVmlld0NhdGVnb3J5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/Users/Mike/Documents/Coding Dojo/dojo_assignments/c\#/ProductsandCategories/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Users/Mike/Documents/Coding Dojo/dojo_assignments/c\#/ProductsandCategories/Views/Home/NewCategory.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOZXdDYXRlZ29yeS5jc2h0bWw=
+[F:/Users/Mike/Documents/Coding Dojo/dojo_assignments/c\#/ProductsandCategories/Views/Product/AllProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxBbGxQcm9kdWN0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Users/Mike/Documents/Coding Dojo/dojo_assignments/c\#/ProductsandCategories/Views/Home/NewProduct.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOZXdQcm9kdWN0LmNzaHRtbA==
+[F:/Users/Mike/Documents/Coding Dojo/dojo_assignments/c\#/ProductsandCategories/Views/Product/NewProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxOZXdQcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Users/Mike/Documents/Coding Dojo/dojo_assignments/c\#/ProductsandCategories/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[F:/Users/Mike/Documents/Coding Dojo/dojo_assignments/c\#/ProductsandCategories/Views/Product/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Users/Mike/Documents/Coding Dojo/dojo_assignments/c\#/ProductsandCategories/Views/Home/Product.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9kdWN0LmNzaHRtbA==
+[F:/Users/Mike/Documents/Coding Dojo/dojo_assignments/c\#/ProductsandCategories/Views/Product/Product.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Users/Mike/Documents/Coding Dojo/dojo_assignments/c\#/ProductsandCategories/Views/Home/ViewCategory.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWaWV3Q2F0ZWdvcnkuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[F:/Users/Mike/Documents/Coding Dojo/dojo_assignments/c\#/ProductsandCategories/Views/Home/ViewProduct.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWaWV3UHJvZHVjdC5jc2h0bWw=
+[F:/Users/Mike/Documents/Coding Dojo/dojo_assignments/c\#/ProductsandCategories/Views/Product/ViewProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxWaWV3UHJvZHVjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/Users/Mike/Documents/Coding Dojo/dojo_assignments/c\#/ProductsandCategories/Views/Shared/Error.cshtml]
