@@ -1,0 +1,21 @@
+@model Category
+
+<div class="container w-75 mx-auto">
+    <h2 class="text-center">New Category</h2>
+
+    <form 
+    class="shadow p-3 rounded" 
+    asp-controller="Home" 
+    asp-action="CreateCategory" 
+    method="POST">
+
+        <div class="mb-3">
+            <label asp-for="Name"></label>
+            <span class="text-danger" asp-validation-for="Name"></span>
+            <input asp-for="Name" class="form-control">
+        </div>
+        
+        <input type="submit" value="Create">
+    </form>
+
+</div>

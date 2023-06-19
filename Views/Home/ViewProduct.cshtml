@@ -1,0 +1,37 @@
+@model Product
+
+<h1>@Model.Name</h1>
+
+@* @model List<Category> *@
+    @* take in associations instead? *@
+@* <h1></h1>
+<div class="row mt-5">
+    <div class="col-md">
+        <h2 class="text-center">Categories</h2>
+        @foreach (Category category in Model)
+        {
+            <div class="card shadow rounded mx-auto w-75 mb-3">
+
+                <div class=card-body>
+                    <p class="card-text">@category.Name</p>
+                </div>
+
+            </div>
+        }
+    </div>
+
+    <div class="col-md">
+        <form class="shadow p-3 rounded" asp-controller="Home" asp-action="CreateDish" method="POST">
+            <h2 asp-for="" class="text-center">Add Category</h2>
+            <span class="text-danger" asp-validation-for="Name"></span>
+            <select asp-for="Name" class="form-control">
+                @foreach (Category category in @ViewBag.categories)
+                {
+                    <option value=@category.CategoryId>@category.Name</option>
+                }
+            </select>
+
+            <input type="submit" value="Add">
+        </form>
+    </div>
+</div> *@

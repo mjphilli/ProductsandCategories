@@ -1,0 +1,14 @@
+@model List<Product>
+
+<h2 class="text-center">All Products</h2>
+
+@foreach (Product product in Model)
+{
+    <div class="card shadow rounded mx-auto w-75 mb-3">
+
+        <div class=card-body>
+            <p class="card-text"><a asp-controller="Home" asp-action="ViewProduct" asp-route-id="@product.ProductId">@product.Name</a></p>
+        </div>
+
+    </div>
+}

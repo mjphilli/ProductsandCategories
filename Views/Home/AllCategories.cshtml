@@ -1,0 +1,14 @@
+@model List<Category>
+
+<h2 class="text-center">All Categories</h2>
+
+@foreach (Category category in Model)
+{
+    <div class="card shadow rounded mx-auto w-75 mb-3">
+
+        <div class=card-body>
+            <p class="card-text"><a asp-controller="Home" asp-action="ViewCategory" asp-route-id="@category.CategoryId">@category.Name</a></p>
+        </div>
+
+    </div>
+}
