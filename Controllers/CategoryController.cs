@@ -68,7 +68,6 @@ public class CategoryController : Controller
 
         db.SaveChanges();
 
-        // return RedirectToAction("ViewCategory", id);
-        return ViewCategory(id);
+        return RedirectToAction("ViewCategory", new { id = id });
     }
 }

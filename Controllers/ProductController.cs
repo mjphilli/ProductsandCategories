@@ -68,8 +68,7 @@ public class ProductController : Controller
 
         db.SaveChanges();
 
-        // return RedirectToAction("ViewProduct", id);
-        return ViewProduct(id);
+        return RedirectToAction("ViewProduct", new { id = id });
     }
 
     public IActionResult Privacy()
